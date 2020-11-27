@@ -1,0 +1,66 @@
+***
+SG -> Security Goup
+IG -> Internet Gateway
+
+??????? Route Table ????????
+
+***
+
+"Ecosystem":
+[
+    {
+        "VPC" 
+        -> private space 
+        -> Add on the SG
+        -> IG
+        -> Subnet Masking
+
+        "Subnet"
+            -> on VPC
+            -> on IG
+
+        "SG"
+            -> VPC I/O traffic       
+
+
+        "IG"
+            -> VPC
+
+    }
+]
+
+
+"Aws_Services":
+[
+    "Application_level":
+    {
+        "EC2": "Coumpting --> local system",
+        "S3 Bucket": "storage services",
+        "RDS" : "Database"
+    }
+
+    "CI/CD":
+    {
+        
+    }
+
+    "AI/ML":
+    {
+
+    }
+
+    "Route53":
+    {
+        "Domains":"www.satyam.com"
+    }
+]
+
+"IAM":
+{
+    "Policy":"policy attched, manual create",
+    "users":"n no users",
+    "groups":"n no groups"
+}
+
+
+
