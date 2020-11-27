@@ -55,6 +55,12 @@ IG -> Internet Gateway
     }
 ]
 
+"IAM":
+{
+    "Policy":"policy attched, manual create",
+    "users":"n no users",
+    "groups":"n no groups"
+}
 
 
 
